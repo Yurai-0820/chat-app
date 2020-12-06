@@ -57,17 +57,17 @@
   justify-content: space-between;
   
 }
-.groupname{
+.header-title{
   font-size: 24px;
   color: #333;
   margin-top: 36px;
 }
 
-.endroom {
+.header-button {
   margin-top: 40px;
 }
 
-.endroom a {
+.header-button a {
   color: darkred;
   text-decoration: none;
   border: solid 1px darkred;

@@ -6,20 +6,7 @@
 </div>
 
 <div class="messages">
-  <div class = userup>
-    <div class ="line1">
-      <div class ="username">Tom</div>
-      <div class ="uptime">2020/3/31(Wed) 12:43:30</div>
-    </div>
-    <div class ="text">おはよう</div>
-  </div>
-  <div class = userup>
-    <div class ="line1">
-      <div class ="username">Sim</div>
-      <div class ="uptime">2020/3/31(Wed) 12:43:30</div>
-    </div>
-    <div class ="text">こんばんは</div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
